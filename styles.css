@@ -193,6 +193,30 @@ h1,h2,h3,p { margin-top: 0; }
 .distinction-course > i { width: 100%; height: 3px; background: rgba(62,101,78,.14); border-radius: 5px; }.distinction-course em { width: 68%; height: 100%; display: block; background: #78a083; border-radius: inherit; }.course-code em { width: 32%; background: #85a1ad; }
 .distinction-chip { position: absolute; left: 39px; bottom: 27px; padding: 8px 10px; display: flex; align-items: center; gap: 7px; color: #486d5e; background: rgba(251,252,246,.94); font-family: var(--mono); font-size: 6px; letter-spacing: .07em; box-shadow: 0 7px 14px rgba(42,77,75,.1); }
 .distinction-chip > span { color: #8ba35a; font-size: 12px; }.distinction-chip b { padding-left: 7px; border-left: 1px solid #d9e2d8; color: #81977f; font-size: 5px; font-weight: 500; }
+.project-sellyt { grid-column: 1 / -1; display: grid; grid-template-columns: 1.05fr .95fr; align-items: center; gap: 38px; padding: 25px; background: #e8eae2; border: 1px solid rgba(23,27,24,.08); }
+.project-sellyt .project-visual { min-height: 315px; }
+.project-sellyt .project-content { padding: 0 5px 0 0; }
+.visual-sellyt { background: #193b32; color: #edf2e5; }
+.visual-sellyt .visual-topline { color: rgba(237,242,229,.62); }
+.sellyt-system { position: absolute; inset: 58px 29px 48px; display: grid; grid-template-columns: .95fr 1.05fr; align-items: center; gap: 12px; }
+.sellyt-conversation { min-width: 0; height: 207px; position: relative; overflow: hidden; background: #fcfcf7; color: #283a33; box-shadow: 0 13px 30px rgba(4,20,15,.18); transform: rotate(-1deg); }
+.sellyt-chat-head { height: 40px; padding: 7px 9px; display: flex; align-items: center; gap: 7px; border-bottom: 1px solid #edf0e9; }
+.sellyt-brand-mark { width: 23px; height: 23px; display: grid; place-items: center; border-radius: 50%; background: #d8e9d7; color: #477057; font-family: var(--serif); font-size: 14px; }
+.sellyt-chat-head > span:nth-child(2) { display: flex; flex-direction: column; gap: 2px; }.sellyt-chat-head b { color: #344b40; font-size: 7px; }.sellyt-chat-head small { color: #8a968b; font-size: 5px; }.sellyt-chat-head > i { margin-left: auto; color: #94a095; font-size: 9px; font-style: normal; letter-spacing: 1px; }
+.sellyt-chat-body { padding: 9px 9px 29px; }.chat-time { display: block; color: #9aa398; font-family: var(--mono); font-size: 5px; letter-spacing: .07em; }
+.chat-bubble { width: fit-content; max-width: 93%; padding: 7px 8px; font-size: 7px; line-height: 1.4; }.customer-bubble { margin: 6px 0 5px auto; border-radius: 8px 8px 2px 8px; background: #e8efe7; color: #47584a; }.agent-bubble { border-radius: 8px 8px 8px 2px; background: #f2f0e6; color: #48534a; }
+.chat-actions { margin-top: 6px; display: flex; gap: 4px; }.chat-actions span { padding: 4px 5px; border: 1px solid #dbe6dc; color: #69826d; font-family: var(--mono); font-size: 4px; letter-spacing: .04em; }
+.sellyt-chat-input { position: absolute; left: 8px; right: 8px; bottom: 8px; height: 20px; padding: 0 6px; display: flex; align-items: center; justify-content: space-between; border: 1px solid #e7ebe3; color: #a3aaa0; font-size: 6px; }.sellyt-chat-input b { width: 14px; height: 14px; display: grid; place-items: center; border-radius: 50%; background: #4d8061; color: white; font-size: 8px; }
+.sellyt-architecture { min-width: 0; min-height: 207px; padding: 12px 11px 10px; background: #edf0e5; color: #365044; box-shadow: 0 13px 30px rgba(4,20,15,.18); transform: rotate(1deg); }
+.arch-heading { display: flex; justify-content: space-between; color: #587064; font-family: var(--mono); font-size: 6px; letter-spacing: .1em; }.arch-live { display: inline-flex; gap: 5px; align-items: center; color: #648b6c; font-size: 5px; }.arch-live i { width: 5px; height: 5px; border-radius: 50%; background: #78ae79; }
+.arch-flow { min-height: 100px; display: grid; grid-template-columns: .8fr 12px 1.2fr; align-items: center; gap: 4px; padding-top: 8px; }
+.arch-node { min-width: 0; padding: 8px 5px; display: block; border: 1px solid #cad8cb; background: #f8f9f2; color: #4c6c59; font-family: var(--mono); font-size: 5px; letter-spacing: .05em; text-align: center; }
+.node-triage { background: #dbe9d9; border-color: #b8d1bb; color: #446c50; }.node-seller { background: #e1e7d4; }
+.arch-connector { height: 1px; background: #9db9a0; }.arch-agents { display: flex; flex-direction: column; gap: 5px; }
+.stream-label { padding-top: 6px; display: flex; justify-content: space-between; border-top: 1px solid #d7dfd3; color: #6d8273; font-family: var(--mono); font-size: 5px; letter-spacing: .07em; }.stream-label span { color: #9aa898; font-size: 4px; }
+.stream-pills { margin-top: 5px; display: flex; gap: 4px; }.stream-pills span { padding: 4px 5px; background: #e1e9dd; color: #607b63; font-family: var(--mono); font-size: 4px; letter-spacing: .05em; }
+.guardrail-row { margin-top: 7px; display: flex; justify-content: space-between; color: #64826a; font-family: var(--mono); font-size: 4px; letter-spacing: .04em; }
+.sellyt-chip { position: absolute; left: 37px; bottom: 23px; display: flex; align-items: center; gap: 7px; padding: 7px 9px; background: rgba(245,247,236,.96); color: #60755e; box-shadow: 0 7px 14px rgba(4,20,15,.15); font-family: var(--mono); font-size: 5px; letter-spacing: .04em; }.sellyt-chip b { color: #8da26e; font-size: 8px; }
 .project-content { padding: 19px 3px 0; }
 .project-meta { display: flex; justify-content: space-between; gap: 10px; color: #7a8078; font-size: 8px; letter-spacing: .08em; }
 .project-content h3 { margin: 12px 0 8px; font-size: 27px; font-weight: 600; letter-spacing: -.055em; }
@@ -278,7 +302,7 @@ h1,h2,h3,p { margin-top: 0; }
   .grading-board { inset-inline: 22px; }.grade-paper { min-width: 190px; }.grade-orbit { width: 79px; height: 79px; font-size: 15px; }
   .voice-ui { inset-inline: 23px; }.voice-control { width: 130px; }.sturdie-ui { inset-inline: 22px; }.afren-stage { inset-inline: 28px; }
   .project-content > p { min-height: 72px; }
-  .project-distinction { grid-template-columns: 1fr 1fr; gap: 24px; padding: 19px; }.project-distinction .project-visual { min-height: 285px; }.distinction-dashboard { inset-inline: 22px; }.distinction-chip { left: 27px; bottom: 23px; }
+  .project-distinction, .project-sellyt { grid-template-columns: 1fr 1fr; gap: 24px; padding: 19px; }.project-distinction .project-visual, .project-sellyt .project-visual { min-height: 285px; }.distinction-dashboard { inset-inline: 22px; }.distinction-chip { left: 27px; bottom: 23px; }.sellyt-system { inset-inline: 17px; gap: 8px; }.sellyt-conversation, .sellyt-architecture { height: 197px; min-height: 197px; }.sellyt-chip { left: 26px; }
 }
 @media (max-width: 700px) {
   html { scroll-padding-top: 70px; }
@@ -307,7 +331,7 @@ h1,h2,h3,p { margin-top: 0; }
   .section-pad { padding-top: 80px; padding-bottom: 80px; }
   .section-heading { display: block; margin-bottom: 35px; }.section-heading h2, .experience-heading h2 { font-size: clamp(47px, 11vw, 62px); }.section-heading > p { max-width: 430px; margin: 18px 0 0; font-size: 12px; }
   .work-grid { grid-template-columns: 1fr; gap: 42px; }
-  .project-distinction { display: block; padding: 12px; }.project-distinction .project-visual { min-height: 300px; }.project-distinction .project-content { padding: 19px 3px 3px; }
+  .project-distinction, .project-sellyt { display: block; padding: 12px; }.project-distinction .project-visual, .project-sellyt .project-visual { min-height: 300px; }.project-distinction .project-content, .project-sellyt .project-content { padding: 19px 3px 3px; }
   .project-visual { min-height: 300px; }
   .project-content > p { min-height: initial; max-width: 520px; }
   .work-note { margin-top: 39px; align-items: flex-start; font-size: 10px; }
@@ -324,4 +348,5 @@ h1,h2,h3,p { margin-top: 0; }
   .container { width: calc(100% - 32px); }.header-inner { gap: 11px; }.header-cv { font-size: 9px; }.hero h1 { font-size: 50px; }.hero-actions { gap: 17px; }.button { padding: 0 13px; font-size: 10px; }.text-link { font-size: 10px; }
   .project-visual { min-height: 264px; }.visual-topline { font-size: 7px; }.grade-paper { min-width: 168px; width: 58%; }.grade-side { right: 5%; }.grade-orbit { width: 68px; height: 68px; font-size: 13px; }.voice-control { width: 111px; height: 143px; }.voice-ui { inset-inline: 17px; }.voice-copy strong { font-size: 26px; }.voice-prompt { max-width: 150px; font-size: 8px; }.sturdie-ui { inset-inline: 16px; }.sturdie-main { padding: 15px 11px; }.career-node { padding: 6px 5px; font-size: 5px; }.afren-stage { inset-inline: 19px; gap: 10px; }.afren-brief, .afren-result { height: 164px; padding: 14px 10px; }.afren-brief strong, .afren-result strong { font-size: 17px; }
   .distinction-dashboard { inset: 54px 13px 25px; }.distinction-sidebar { width: 24%; padding-inline: 7px; }.distinction-sidebar > b { font-size: 5px; }.distinction-main { padding: 9px; }.distinction-welcome { height: 78px; padding: 9px; }.distinction-welcome > strong { font-size: 14px; }.distinction-chip { left: 18px; bottom: 20px; gap: 5px; font-size: 5px; }.distinction-chip b { font-size: 4px; }
+  .sellyt-system { inset: 55px 12px 44px; grid-template-columns: .92fr 1.08fr; gap: 6px; }.sellyt-conversation { height: 193px; min-height: 193px; }.sellyt-architecture { height: 193px; min-height: 193px; padding-inline: 8px; }.sellyt-chat-head { padding-inline: 6px; }.sellyt-chat-body { padding-inline: 6px; }.chat-bubble { font-size: 6px; }.chat-actions span { font-size: 3px; }.arch-flow { grid-template-columns: .8fr 8px 1.2fr; gap: 3px; }.arch-node { padding-inline: 3px; font-size: 4px; }.guardrail-row { font-size: 3px; }.sellyt-chip { left: 16px; bottom: 19px; gap: 4px; padding: 6px 7px; font-size: 4px; }
 }
